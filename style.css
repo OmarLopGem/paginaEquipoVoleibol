@@ -131,15 +131,11 @@ body{
     border-radius: 10px;
 }
 
-.lineaH {
-    margin: auto;
-    width: 90%;
-    background-color: #c0c0c0;
-    height: 2px;
-    margin: 20px;
+.seccion {
+    margin: 50px 0px;
 }
 
-.horarios {
+.titulosPagina {
     width: 800px;
     margin: auto;
     margin-bottom: 30px;
@@ -148,10 +144,33 @@ body{
 .diasHoras {
     width: 500px;
     margin: auto;
-    margin-top: 10px;
     border-radius: 10px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
     
+}
+
+.infoLigas {
+
+}
+
+.liga {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border: #000;
+}
+
+.tituloLigas {
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    background-color: #FF4040;
+
+}
+
+.imagenLiga {
+    height: 700px;
 }
