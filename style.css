@@ -75,7 +75,10 @@ body{
 .acercaClub {
     display: flex;
     justify-content: center;
-    background-color: #2B2B2B;
+    background-image: url(./img/voleibol.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     padding: 50px;
 }
@@ -104,6 +107,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+    background-color: #007299;
 }
 
 .presentacion {
@@ -148,8 +152,10 @@ body{
     width: 500px;
     margin: auto;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 75px);
+    text-align: center;
     
 }
 
@@ -161,7 +167,6 @@ body{
 .liga {
     display: flex;
     flex-direction: column;
-    
     border-style: solid;
     border: #000;
 }
@@ -173,7 +178,7 @@ body{
     border-radius: 10px;
     background-color: #007299;
     text-align: center;
-    margin: 20px 0px;
+    margin: 0px 0px 20px 0px;
 
 }
 
@@ -182,18 +187,13 @@ body{
 }
 
 .textoLiga {
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 75px);
+    text-align: center; 
 
 }
 
 .textoLiga div{
     width: 300px;
-}
-
-.textoLiga p{
-    margin-bottom: 50px;
 }
