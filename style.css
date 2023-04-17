@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -11,7 +12,7 @@ body{
     font-family: 'Roboto', sans-serif;
     padding-top: 100px;
     
-    }
+}
 
 .header {
     background-color: white;
@@ -139,12 +140,13 @@ body{
     width: 800px;
     margin: auto;
     margin-bottom: 30px;
+    text-align: center;
+    color: #FF4040;
 }
 
 .diasHoras {
     width: 500px;
     margin: auto;
-    border-radius: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;  
@@ -152,12 +154,14 @@ body{
 }
 
 .infoLigas {
-
+    margin: auto;
+    width: 50%;
 }
 
 .liga {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    
     border-style: solid;
     border: #000;
 }
@@ -167,10 +171,29 @@ body{
     font-size: 40px;
     color: white;
     border-radius: 10px;
-    background-color: #FF4040;
+    background-color: #007299;
+    text-align: center;
+    margin: 20px 0px;
 
 }
 
 .imagenLiga {
-    height: 700px;
+    margin-bottom: 20px;
+}
+
+.textoLiga {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;  
+
+}
+
+.textoLiga div{
+    width: 300px;
+}
+
+.textoLiga p{
+    margin-bottom: 50px;
 }
